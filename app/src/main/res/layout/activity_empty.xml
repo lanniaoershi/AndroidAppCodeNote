@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.utopia.activitytemplate.EmptyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_blank_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blank Activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_fullscreen_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fullscreen Activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_login_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login Activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_navi_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Navigation Drawer Activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_scrolling_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scrolling Activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_setting_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setting Activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_tabbed_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tabbed Activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_master_flow_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MasterFlow Activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_data_test_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Test Activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_google_host"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google Host"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
